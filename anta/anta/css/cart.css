@@ -1,0 +1,235 @@
+/*********购物车顶部***********/
+.cart_header{
+	width:1190px;
+	height:27px;
+	margin:0 auto;
+	border-bottom:1px solid #f3ebeb;
+}
+.cart_header h4{
+	font-weight: normal;
+	line-height:27px;
+}
+.cart_header ul li,.cart_header h4{
+	float:left;
+	
+}
+.cart_header ul li a{
+	color:#666;
+}
+.cart_header ul li a:hover{
+	color:#D71921;
+}
+.cart_header .head_list1 li{
+	padding:0 10px 0 10px;
+	line-height:27px;
+}
+.cart_header .head_list1 .close{
+	color:#D71921;
+}
+.cart_header .head_list1 li a span{
+	color:#DD0000;
+}
+.cart_header .head_list2{
+	float:right;
+	margin:5px 0 0 0;
+}
+.cart_header .head_list2 li{
+	padding:0 15px;
+	border-right:1px solid #f3ebeb;
+}
+.cart_header .head_list2 li.first{
+	background:url(../images/star.png) 0 2px no-repeat;
+}
+.cart_header .head_list2 li.no_bd{
+	border-right:0;
+}
+.cart_header .head_list2 li.phone{
+	padding-left:20px;
+	background:url(../images/phone.gif) 4px 2px no-repeat;
+}
+/*********购物车logo部分**************/
+#cart_logo{
+	height:44px;
+	width:1190px;
+	margin:0 auto;
+	padding:28px 0;
+	border-bottom:2px solid #f3ebeb;
+}
+#cart_logo .logo{
+	width:251px;
+	height:44px;
+	background:url(../images/cart_logo.jpg) left center no-repeat;
+}
+#cart_logo .logo_r{
+	float:right;
+	width:446px;
+	height:30px;
+	margin:12px 0 0 0;
+	background:url(../images/flow.png) top right no-repeat;
+}
+#cart_logo .logo_r li{
+	width: 176px;
+	height:30px;
+	text-align:center;
+	color:#999;
+	float:left;
+}
+#cart_logo .logo_r li span{
+	display:block;
+	height:15px;
+	line-height:15px;
+	padding:15px 0 0 0;
+}
+#cart_logo .logo_r li .act{
+	color:#000;
+	background:url(../images/flow_black.gif) top center no-repeat;
+}
+#cart_logo .logo_r li.end{
+	width:94px;
+}
+/*我的购物车部分*/
+#my_cart{
+	width:1190px;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+}
+#my_cart .cart_box{
+	padding:0 72px 0 60px;
+}
+#my_cart .cart_box h1{
+	height:73px;
+	line-height:108px;
+}
+/*没有商品时显示该div中信息*/
+.no_shop{
+	display:none;
+	text-align:center;
+	margin:20px 0 0 0;
+}
+.no_shop h2{
+	padding:20px 0;
+	margin:0 70px 0 62px;
+	background:#F5F5F5;
+}
+.no_shop h2 a{
+	color:#0051A7;
+}
+.cart_box .tab{
+	width:100%;
+	height:auto;
+	border-collapse: collapse;
+}
+.tab thead tr{
+	background:#f5f5f5;
+	font-weight:normal;
+	height:46px;
+	text-align:center;
+}
+.tab .w50{
+	width:50px;
+}
+.tab .w80{
+	width:80px;
+}
+.tab .w150{
+	width:150px;
+}
+.tab .w120{
+	width:120px;
+}
+.tab .w200{
+	width:200px;
+}
+.tab .w290{
+	width:290px;
+}
+.cart_box .tab thead tr .shop_info{
+	text-align: left;
+}
+
+.cart_box .tab thead th input{
+	display:inline-block;
+	width:50px;
+}
+.tab tbody tr{
+	font-weight:normal;
+	text-align:center;
+}
+.tab tbody tr .p_info{
+	text-align:left;
+}
+.tab tbody .shop_list button{
+	cursor:pointer;
+}
+.tab tbody .shop_list .p_info h2 a{
+	font-size:16px;
+	font-weight:normal;
+}
+.tab tbody .shop_list .p_info span{
+	display:block;
+	color: #818181;
+}
+.tab tbody .shop_list td{
+	padding:15px 0;
+}
+.tab tbody .shop_list td .o_price{
+	text-decoration:line-through;
+	color:#818181;
+}
+.tab tbody .shop_list td .n_price{
+	display:block;
+}
+.tab tbody .shop_list td.w200 input{
+	width:20px;
+	text-align:center;
+}
+.shop_run{
+	width:100%;
+	border-top:1px solid #ddd;
+	background:#F5F5F5;
+}
+
+.shop_run td{
+	width:100px;
+	padding:15px 0;
+	text-align:left;
+}
+.shop_run span a{
+	color:#0051a7;
+}
+.shop_run .pay{
+	text-align:right;
+}
+.shop_run .pay i{
+	color:#000;
+	font-size:16px;
+}
+.shop_run .pay span{
+	color:#dd0000;
+	font-size:20px;
+}
+.tab tbody .shop_b{
+	text-align: right;
+	border-top:1px solid #ddd;
+}
+.shop_b td{
+	padding:15px 0;
+}
+.shop_b td a{
+	display:inline-block;
+	width:132px;
+	padding:10px 0;
+	text-align:center;
+}
+.shop_b td a.goShopping{
+	background:#fff;
+	border:1px solid #dcdcdc;
+	color:#000;
+	
+}
+.shop_b td a.sub{
+	padding:11px 0;
+	background:#d00;
+	color:#fff;
+}

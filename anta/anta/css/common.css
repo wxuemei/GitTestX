@@ -1,0 +1,87 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+font,
+img,
+strong,
+b,
+dl,
+dt,
+dd,
+form,
+label,
+ol,
+ul,
+li,
+legend,
+span,
+input,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+em,i,b{
+	font-style:normal;
+}
+img,button{
+	border:0;
+}
+a {
+	text-decoration: none;
+	color: #666666;
+}
+
+body {
+	font: 12px/1.5 "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.red {
+	color: red;
+}
+.pl255{
+	padding-left:210px;
+}
+.pl45{
+	padding-left:38px;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	overflow: hidden;
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}

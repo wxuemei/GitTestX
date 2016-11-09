@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>安踏首页</title>
+	<link rel="icon" href="images/anta.icon"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" href="css/index.css" />
+	<script src="js/jquery_1.11.3.min.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/scroll.js"></script>
+	<script src="js/carousel.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/floor_data.js"></script>
+	<script src="js/validateLogin.js"></script>
+</head>
+<body>
+	<div class="wrap_header">
+	<!--顶部logo区域-->
+		<div id="header">
+			<h1 id="logo" class="left"><img src="images/logo.gif" alt="安踏商城"></h1>
+			<ul class="top_list1 left">
+				<li><a href="html/login.html">登录</a></li>
+				<li class="br_0"><a href="html/register.html" >注册</a></li>
+			</ul>
+			<ul class="top_list2 right">
+				<li><a href="#">我的安踏</a></li>
+				<li><a href="#">品牌官网</a></li>
+				<li class="phone">
+					<a href="#">手机商城</a>
+					<div class="ewm">
+						
+					</div>
+				</li>
+				<li class="team_gou"><a href="javascript:;" class="red">企业团购</a></li>
+				<li class="cart br_0"><a href="html/cart.html">购物车<span>0</span>件</a></li>
+			</ul>
+		</div>
+	</div>	
+	<div class="wrap clearfix">
+		<!--------------------------主导航部分------------------------->
+		<div class="nav">
+			<!--子导航-->
+			<div id="sub_nav">
+				<div class="sub_caption"><a href="#">所有商品分类</a></div>
+				<div class="sub_menu"></div>
+			</div>
+			<ul class="nav_list">
+				<li><a href="##" class="list_title">首页</a></li>
+				<!--------跑步系列------->
+				<li>
+					<a target="_blank" href="html/shopping_list.html#pb" class="list_title">跑步</a>
+				</li>
+				<!--篮球系列-->
+				<li>
+					<a target="_blank" href="html/shopping_list.html#lq" class="list_title">篮球</a>
+				</li>
+				<!--足球系列-->
+				<li><a target="_blank" href="html/shopping_list.html#zq" href="javascript:;" class="list_title">足球</a></li>
+				<!--综训系列-->
+				<li><a target="_blank" href="html/shopping_list.html#zx" href="javascript:;" class="list_title">综训</a></li>
+				<!--户外系列-->
+				<li><a target="_blank" href="html/shopping_list.html#hw" href="javascript:;" class="list_title">户外</a></li>
+				<!--休闲系列-->
+				<li><a target="_blank" href="html/shopping_list.html#xx"  class="list_title">休闲</a></li>
+				<!--配件系列-->
+				<li><a target="_blank" href="html/shopping_list.html#pj"  class="list_title">配件</a></li>
+				<!--儿童系列-->
+				<li><a target="_blank" href="html/shopping_list.html#et" href="javascript:;" class="list_title">儿童</a></li>
+				<!--新品系列-->
+				<li><a href="javascript:;" class="list_title">新品</a></li>
+				<li><input type="text" placeholder="此功能暂不支持，谢谢合作"/><button>搜索</button></li>
+			</ul>
+			
+		</div>
+		
+		
+		<!--轮播图-->
+		<div id="carousel">
+			<ul class="clearfix">
+				<!--<a href="javascript:;" style="background:"></a>-->
+			</ul>
+			<div class="slide_nav clearfix">
+				<!--<a href="javascript:;"></a>-->
+			</div>
+			<div id="prev"><img src="images/banner_l.png" alt="" /></div>
+			<div id="next"><img src="images/banner_r.png" alt="" /></div>
+		</div>
+	
+	</div>
+	<!--右侧边栏-->
+	<div id="slide_menu">
+				<div class="slide_list">
+					<div class="userInfo">
+						<a href="html/login.html"></a>
+					</div>
+					<div class="shoppingCart">
+						<div class="cart"></div>
+						<a href="html/cart.html">购物车</a>
+					</div>
+					<div class="collection c_hover">
+						<a href="javascript:;"></a>
+						<div class="left_box">
+							<span>
+								我的收藏<i></i>
+							<span>	
+						</div>
+					</div>
+					<div class="history c_hover">
+						<a href="javascript:;"></a>
+						<div class="left_box">
+							<span>
+								最近浏览<i></i>
+							<span>	
+						</div>
+					</div>
+					<div class="kefu c_hover">
+						<a href="javascript:;"></a>
+						<div class="left_box">
+							<span>
+								在线客服<i></i>
+							<span>	
+						</div>
+					</div>-
+					<div class="worktime c_hover">
+						<a href="javascript:;"></a><!--<i>服务时间:9-22点<span>400-858-2020</span></i>-->
+						<div class="left_box">
+							<p>服务时间:9-22点<span>400-858-2020</span><i></i></p>
+						</div>
+					</div>
+					<div class="erweima c_hover">
+						<a href="javascript:;"></a>
+						<div class="e_box">
+							
+						</div>
+					</div>
+					<a id="return_top" href="javascript:;"></a>
+				</div>
+	</div>	
+	<!--------------------------------------装备区----------------------------------->
+	<div class="wrap_zb">
+		<!--装备图片展示区-->
+		<div class="zb">
+			<a target="_blank" href="html/shopping_list.html"><img src="images/pb_822.jpg" alt="" /></a>
+			<a target="_blank" href="html/shopping_list.html"><img src="images/lq_822.jpg" alt="" /></a>
+			<a target="_blank" href="html/shopping_list.html"><img src="images/zq_822.jpg" alt="" /></a>
+			<a target="_blank" href="html/shopping_list.html"><img src="images/xx_822.jpg" alt="" /></a>
+			<a class="pr_0" target="_blank" href="html/shopping_list.html"><img src="images/et_822.jpg" alt="" /></a>
+		</div>
+	</div>
+	<!---------------楼层专卖区----------------->
+	<div id="floor">
+		<!--楼层一-->
+		<div class="floor_01">
+			<h1>1F 男鞋<a href="javascript:;">查看更多</a></h1>
+			<!--------------楼层左------------>
+			<div class="floor_l">
+				<div class="floor_list">
+					
+				</div>
+				<!--悬浮显示信息层-->
+				<!--<div class="product_info">
+							<img src="images/shuangcheng.png"  />
+							<p>双承缓震科技打底,上层柔软贴合,下层缓震支撑,提供恰到好处的舒适缓震体验</p>
+				</div>-->
+			</div>
+			<!--------楼层中-------->
+			<div class="floor_c">
+				<!--<div class="hot">
+					<a href="javascript:;"><img src="images/lieying.jpg" alt="" /></a>
+				</div>-->
+			</div>
+			<!---------楼层右----------->
+			<div class="floor_r">
+			</div>
+		</div>
+		<!----------楼层二男装------------->
+		<div class="floor_01">
+			<h1>2F 男装<a href="javascript:;">查看更多</a></h1>
+			<!--------------楼层左------------>
+			<div class="floor_l">
+				<div class="floor_list">
+					<dl class="product bl_0 bg_e8">
+						<dt class="t_cloth"><a href="javascript:;"><i></i><span>上装</span></a></dt>
+					</dl>
+					<dl class="product bg_e8">
+						<dt class="b_cloth"><a href="javascript:;"><i></i><span>下装</span></a></dt>	
+					</dl>
+					
+				</div>
+			</div>
+			<!--------楼层中-------->
+			<div class="floor_c">
+				
+			</div>
+			<!---------楼层右----------->
+			<div class="floor_r">
+			
+			</div>
+		</div>
+		<!----------楼层三女鞋------------->
+		<div class="floor_01">
+			<h1>3F 女鞋<a href="javascript:;">查看更多</a></h1>
+			<!--------------楼层左------------>
+			<div class="floor_l">
+				<div class="floor_list">
+					
+				</div>
+				
+			</div>
+			<!--------楼层中-------->
+			<div class="floor_c">
+				
+			</div>
+			<!---------楼层右----------->
+			<div class="floor_r">
+				
+			</div>
+		</div>
+		<!----------楼层四女装------------->
+		<div class="floor_01">
+			<h1>4F 女装<a href="javascript:;">查看更多</a></h1>
+			<!--------------楼层左------------>
+			<div class="floor_l">
+				<div class="floor_list">
+					<dl class="product bl_0 bg_e8">
+						<dt class="t_cloth"><a href="javascript:;"><i></i><span>上装</span></a></dt>
+					</dl>
+					<dl class="product bg_e8">
+						<dt class="b_cloth"><a href="javascript:;"><i></i><span>下装</span></a></dt>	
+					</dl>
+					
+				</div>
+			</div>
+			<!--------楼层中-------->
+			<div class="floor_c">
+			</div>
+			<!---------楼层右----------->
+			<div class="floor_r">
+			</div>
+		</div>
+	</div>
+	
+	<!--服务区-->
+	<div class="wrap_serve">
+			<div class="serve_info">
+				<dl>
+					<dt>新手指南</dt>
+					<dd><a href="javascript:;">会员政策</a></dd>
+					<dd><a href="javascript:;">新用户政策</a></dd>
+					<dd><a href="javascript:;">积分政策</a></dd>
+					<dd><a href="javascript:;">用户协议</a></dd>
+				</dl>
+				<dl>
+					<dt>购物指南</dt>
+					<dd><a href="javascript:;">尺码对照表</a></dd>
+					<dd><a href="javascript:;">购物流程</a></dd>
+					<dd><a href="javascript:;">订单查询</a></dd>
+				</dl>
+				<dl>
+					<dt>支付方式</dt>
+					<dd><a href="javascript:;">支付方式</a></dd>
+					<dd><a href="javascript:;">发票制度</a></dd>
+				</dl>
+				<dl>
+					<dt>配送服务</dt>
+					<dd><a href="javascript:;">配送费用</a></dd>
+					<dd><a href="javascript:;">快递查询</a></dd>
+					<dd><a href="javascript:;">包装形式</a></dd>
+					<dd><a href="javascript:;">配送方式</a></dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd><a href="javascript:;">退换货政策</a></dd>
+					<dd><a href="javascript:;">退换货流程</a></dd>
+					<dd><a href="javascript:;">退货方式</a></dd>
+				</dl>
+				<dl>
+					<dt>联系我们</dt>
+					<dd><a href="javascript:;">友情链接</a></dd>
+					<dd><a href="javascript:;">商务合作</a></dd>
+					<dd><a href="javascript:;">企业团购</a></dd>
+				</dl>
+				<dl>
+					<dt>网站导航</dt>
+					<dd><a href="javascript:;">网站地图</dd>
+					<dd><a href="javascript:;">标签</a></dd>
+				</dl>		
+			</div>
+			<!--咨询服务-->
+			<div class="serve_online">
+				<!--电话热线-->
+				<div class="tel_online"></div>
+				<!--在线客服-->
+				<div class="consultor"><a href="javascript:;"></a></div>
+			</div>	
+	</div>
+	<!--footer-->
+	<div class="footer">
+		<!--店家承若-->
+		<div class="promise">
+			<ul>
+				<li class="zhengping"><span>官方直营 </span>正品保证</li>
+				<li class="zhuanxiang"><span>会员专享 </span>折上折优惠</li>
+				<li class="baoyou"><span>购满258包邮 </span></li>
+				<li class="tuihuo"><span>支持7天无理由 </span>退换货</li>
+			</ul>
+		</div>
+		<!--底部版权信息-->
+		<div class="copy">
+			<p>Copyright 2012-2015 XIAMEN ANTA E-COMMERCE LIMITED All Rights Reserved</p>
+			<p>厦门安踏电子商务有限公司 闽ICP备11020421号</p>
+			<p>福建省厦门市思明区观音山嘉义路99号安踏营运中心 电话：400-858-2020</p>
+			<div class="pic">
+				<a href="javascript:;"><img src="images/chengxing.png" alt="" /></a>
+				<a href="javascript:;"><img src="images/yinlian.png" alt="" /></a>
+				<a href="javascript:;"><img class="chengxin" src="images/chengxin.png" alt="" /></a>
+				<a href="javascript:;"><img src="images/police.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

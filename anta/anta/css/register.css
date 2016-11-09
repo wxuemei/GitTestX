@@ -1,0 +1,158 @@
+#container {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+
+input,
+button {
+	border: none;
+	border: 1px solid #ccc;
+}
+
+.main {
+	width: 858px;
+	height: 622px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+.content {
+	width: 600px;
+	height: auto;
+	margin: 44px auto;
+	text-align:center;
+}
+.content.mt80{
+	margin-top:80px;
+}
+.content .infomation,.content .infomation2{
+	width: 358px;
+	height:30px;
+	margin:10px auto 0;
+	color:#D71921;
+	font-size:14px;
+}
+.content .infomation2{
+	text-align:left;
+}
+.content h2{
+	text-align:center;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	line-height:60px;
+}
+h1 {
+	padding: 44px 0 0 0px;
+}
+
+.main input,
+.main button {
+	display: block;
+	width: 358px;
+	height: 45px;
+	margin: 0 auto;
+}
+.main .yanzhengma{
+	display:inline-block;
+	width:260px;
+}
+.main .show_info{
+	display: inline-block;
+	width:90px;
+	color:#ccc;
+	cursor:pointer;
+	text-align:center;
+}
+.show_info.bg{
+	color:#fff;
+	font-weight:bold;
+	font-size:20px;
+	letter-spacing:2px;
+	background-color:#000;
+}
+.main input.username {
+	margin: 15px auto;
+}
+.main button {
+	background: #d71921;
+	color: #fff;
+	margin-top: 5px;
+	cursor:pointer;
+	font-size:14px;
+}
+
+.info {
+	color: #666;
+	font-weight: normal;
+	font-size: 16px;
+	padding: 0 0 0 120px;
+}
+.tl{
+	text-align:left;
+}
+.lh64{
+	line-height:64px;
+	text-align:left;
+}
+.copy {
+	margin: 20px 0 24px 0;
+	text-align: center;
+	font-size: 10px;
+	color: #a4a4a4;
+	line-height: 29px;
+}
+
+.pic {
+	margin: 10px 0 0 0;
+}
+
+.pic .chengxin {
+	width: 110px;
+	height: 40px;
+}
+
+.icon {
+	position: fixed;
+	right: 41px;
+	bottom: 85px;
+}
+
+.icon a {
+	display: block;
+	width: 72px;
+	height: 73px;
+}
+
+.icon a.first {
+	background: #fbb01f url(../images/r_kefu.jpg) 0 0 no-repeat;
+}
+
+.icon a.first:hover {
+	background-color: #c73339;
+}
+
+.icon a.second {
+	margin: 1px 0 0 0;
+	background: #d71921 url(../images/r_phone.jpg) 0 0 no-repeat;
+	position: relative;
+}
+
+.icon a.second:hover {
+	background-color: #C73339;
+}
+
+.icon a.second .phone {
+	width: 160px;
+	position: relative;
+	top: 0;
+	left: -160px;
+	text-align: center;
+	line-height: 73px;
+	font-size: 18px;
+	color: #fff;
+	background: #C73339;
+	display: none;
+}

@@ -1,0 +1,90 @@
+#container{
+	background:#f5f5f5;
+}
+.main input.password{
+	display:block;
+	margin:20px auto 10px;
+}
+.main .infomation h2{
+	font-weight:normal;
+	line-height:20px;
+}
+.main button{
+	font-size:14px;
+	margin:0 auto 30px;
+	width:360px;
+}
+.content{
+	margin:100px auto 0;
+}
+fieldset{
+	width:338px;
+	border:none;
+	border-top:1px solid #ccc;
+	margin:0 auto;
+}
+.main h1{
+	padding:0 0 0 170px;
+}
+.main h1 img{
+	display:block;
+}
+legend{
+	color:#ccc;
+	font-size:14px;
+	text-align:center;
+}
+.type{
+	width:360px;
+	margin:0 auto 40px;
+	text-align:center;
+}
+.type a{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	background:#757575;
+	margin:10px 12px 0;
+	overflow:hidden;
+}
+.type a i{
+	display:inline-block;
+	width:18px;
+	height:18px;
+	vertical-align:middle;
+}
+.type .alipay i{
+	width:25px;
+	background:url(../images/icons_type.png) -56px 1px;
+}
+.type .alipay:hover,.type .qq:hover{
+	background-color:#0ae;
+}
+.type .qq i{
+	background:url(../images/icons_type.png) -19px 1px;
+}
+.type .weibo i{
+	background: url(../images/icons_type.png) -38px 1px;
+}
+.type .weibo:hover{
+	background-color:#d71921;
+}
+.content_info{
+	width:360px;
+	margin:0 auto;
+	padding:0 0 153px 0;
+	text-align:center;
+}
+.content_info a{
+	display:inline-block;
+	font-size:14px;
+	line-height:14px;
+	padding:0 15px;
+}
+.content_info a:hover{
+	color:#D71921;
+}
+.content_info .register{
+	border-right:1px solid #dcdcdc;
+}
